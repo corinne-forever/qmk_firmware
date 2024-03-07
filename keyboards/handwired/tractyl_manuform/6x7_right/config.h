@@ -30,7 +30,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define DIODE_DIRECTION             COL2ROW
 
-#define ROTATIONAL_TRANSFORM_ANGLE  -25
+#define ROTATIONAL_TRANSFORM_ANGLE -30
 #define POINTING_DEVICE_INVERT_X
 
 /* Bootmagic Lite key configuration */
@@ -44,13 +44,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 /* disable action features */
-//#define NO_ACTION_LAYER
-//#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
-
-//#define OLED_DISPLAY_128X64
 
 #define POINTING_DEVICE_TASK_THROTTLE
 #define POINTING_DEVICE_RIGHT
